@@ -1,14 +1,14 @@
 variable "aws_region" {
   description = "AWS region"
   type        = string
-  default     = "us-east-1"  # Free Tier eligible region
+  default     = "ap-south-1"  # Free Tier eligible region
 }
 
 variable "ami_id" {
   description = "Amazon Linux 2 AMI for Free Tier"
   type        = string
   # Amazon Linux 2 Free Tier AMI for us-east-1
-  default     = "ami-08c40ec9ead489470"
+  default     = "ami-02d26659fd82cf299"
 }
 
 variable "bucket_name" {
